@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="99dp"
+        android:layout_height="747dp"
+        android:layout_weight="110"
+        android:background="#006a46"
+        app:layout_constraintHorizontal_weight="60" />
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="280"
+        android:background="@color/white"
+        app:layout_constraintHorizontal_weight="80"
+
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/escudo_de_estados_unidos_mexicanos_logo_c1d31f888c_seeklogo_com"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="97dp"
+
+        android:layout_height="747dp"
+        android:layout_weight="110"
+        android:background="#dd002d"
+        app:layout_constraintHorizontal_weight="60"
+
+        />
+
+
+
+</LinearLayout>
